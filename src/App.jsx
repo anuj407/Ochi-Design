@@ -18,20 +18,15 @@ function App() {
 const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className="w-full min-h-screen bg-zinc-950 text-white pb-2">
-     
+    <div className="w-screen min-h-screen bg-zinc-950 text-white pb-2">
       <Loader/>
-      
       <Navbar/>
       <LandingPage/>
       <Marquee/>
       <About/>
       <EyesComp/>
       <Featured/>
-      {/* <div className="sticky w-full h-screen top-0"> */}
-
       <Cards/>
-      {/* </div> */}
       <StartProject/>
       <Footer/>
     </div>
