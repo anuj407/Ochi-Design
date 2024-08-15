@@ -42,7 +42,7 @@ function Footer() {
       </div>
       <div className={`right gap-6  lg:gap-0 w-[90%] lg:w-[45%] h-[88vh] flex flex-col`}>
         <div className="lg:h-1/4 lg:pt-[10vh]">
-          <h1 className="text-[14vw] leading-[11vw] lg:text-[7vw] uppercase lg:leading-[6vw] text-zinc-100 font-semibold font-['Founders_Grotesk_X_Condensed']">
+          <h1 className="text-[12vw] leading-[11vw] md:text-[14vw] md:leading-[11vw] lg:text-[7vw] uppercase lg:leading-[6vw] text-zinc-100 font-semibold font-['Founders_Grotesk_X_Condensed']">
             Presentation
           </h1>
         </div>
