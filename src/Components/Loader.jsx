@@ -56,7 +56,7 @@ function Loader() {
                 (item, index) => (
                   <h1
                     key={index}
-                    className="text-[13vw] leading-[12vw] lg:text-[7vw] uppercase lg:leading-[5.5vw] font-semibold font-['Founders_Grotesk_X_Condensed']"
+                    className="text-[10vw] leading-[9vw] md:text-[13vw] md:leading-[12vw] lg:text-[7vw] uppercase lg:leading-[5.5vw] font-semibold font-['Founders_Grotesk_X_Condensed']"
                   >
                     {item}
                   </h1>

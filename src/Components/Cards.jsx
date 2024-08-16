@@ -22,8 +22,8 @@ function Cards() {
               <h1 className="text-[12vw] lg:text-[4.5vw] font-semibold text-[#CDEA68]">ochi</h1>
               <div className="absolute left-[8%] bottom-[8%] px-4 py-1 font-semibold border-[#CDEA68] text-[#CDEA68] text-sm border-[1.5px] rounded-full">@2019-2022</div>
             </div>
-            {cards.map((item,index)=><div key={index} className="w-screen h-[40vh] lg:w-1/4 lg:h-full flex flex-col justify-center items-center bg-[#212121] rounded-xl overflow-hidden">
-             <div className="w-[100%] h-[70%] md:h-[80%] flex justify-center items-center">
+            {cards.map((item,index)=><div key={index} className="w-full h-[40vh] lg:w-1/4 lg:h-full flex flex-col justify-center items-center bg-[#212121] rounded-xl overflow-hidden">
+             <div className="w-[90%] h-[70%] md:h-[80%] flex justify-center items-center">
               <img className={`${index===1 &&`h-full md:h-fit`} w-fit h-fit md:h-fit object-cover`} src={item.url} alt="" />
              </div>
               <button onMouseEnter={()=>handleMouseEnter(index)} onMouseLeave={()=>handleMouseLeave(index)} className="self-start ml-6 lg:ml-0 lg:self-center z-0 flex cursor-pointer relative min-w-fit py-2 px-4 font-semibold border-[#ffffff] text-[#ffffff] text-sm border-[1.5px] uppercase rounded-full overflow-hidden">
