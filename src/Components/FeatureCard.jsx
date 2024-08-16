@@ -31,7 +31,7 @@ function FeatureCard({ title, url, btn, onhover, index, hover, MouseLeave }) {
       <div className="w-full h-[6vh] mt-[3vh] lg:mt-[1vh] flex items-center flex-wrap gap-[1vw]">
         {btn.map((item, index) => (
           <div
-            className="w-fit font-light uppercase text-zinc-200 h-[4vh] px-4 flex justify-center items-center rounded-2xl border-[1px] border-zinc-100"
+            className="w-fit z-40 hover:bg-zinc-200 duration-300 hover:text-zinc-950 font-medium cursor-pointer uppercase text-zinc-200 h-[4vh] px-4 flex justify-center items-center rounded-2xl border-[1px] border-zinc-100"
             key={index}
           >
             {item}

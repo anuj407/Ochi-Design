@@ -4,7 +4,7 @@ import Eyes from './Eyes';
 function StartProject() {
     
   return (
-    <div className="sticky -top-8 h-[90vh] mt-[4vh] lg:mt-0 lg:-top-28 lg:h-fit w-full">
+    <div className="sticky -top-8 h-[90vh] mt-[4vh] lg:mt-0 lg:-top-28 lg:h-fit w-screen">
     <div className="flex flex-col justify-around relative min-h-screen w-full  bg-[#CDEA68] p-1">
         <div className="heading lg:mt-[20vh]">
             {['Ready','to start','tHe Project?'].map((item,index)=><h1 key={index} className="uppercase text-[15vw] font-semibold font-['Founders_Grotesk_X_Condensed']  text-[#212121]  text-center leading-[12vw]">{item}</h1>)}

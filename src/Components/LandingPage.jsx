@@ -17,7 +17,7 @@ return (
       "data-scroll-section": true,
       "data-scroll-speed": "-.5",
     })}
-     className="w-full max-h-screen lg:h-screen text-white pt-1 flex flex-col ">   
+     className="w-screen max-h-screen z-20 lg:h-screen text-white pt-1 flex flex-col ">   
             <div className="h-[38vh] md:mt-[18vh] lg:h-[68%] mt-32 ml-8 lg:mt-44 lg:ml-20">
                {["We Create","eye-Openning","Presentation"].map((item,index)=>{
                 return <div key={index} className="Maskerc flex">
@@ -25,8 +25,7 @@ return (
                           <h1 className="uppercase font-medium font-['Founders_Grotesk_X_Condensed'] text-[12vw] leading-[11vw] md:text-[15vw] md:leading-[13vw] lg:text-[8.5vw] lg:leading-[7.5vw]">{item}</h1>
                        </div>
                })}
-            </div>
-        
+            </div> 
         <div className="flex-col gap-[3vh] h-[35vh] md:h-[16vh] md:flex-row  lg::h-[32%] px-10 py-5 w-full bg-zinc-800 flex lg:justify-between items-start">
             {["For Public and Private Companies","Form the first pitch to IPO"].map((item,index)=>{
                 return <div key={index} className=" pt-4 font-['Neue_Montreal'] font-extralight capitalize opacity-70 tracking-tight leading-none text-[1.07rem]">{item}</div>

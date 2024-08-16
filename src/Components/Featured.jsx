@@ -72,13 +72,13 @@ function Featured() {
     );
   };
   return (
-    <div className="w-full pt-1 min-h-screen bg-zinc-950 ">
+    <div className="w-screen pt-1 min-h-screen bg-zinc-950 ">
       <div className="mt-[7vh] border-b-[1px] border-gray-500 py-[4vh]">
         <h1 className="ml-[4vw] text-[3.5vw] font-normal tracking-tight">
           Featured Projects
         </h1>
       </div>
-      <div className="w-full h-full py-[2vh] mt-[4vh] ">
+      <div className="w-screen h-full py-[2vh] mt-[4vh] ">
         <div className="flex-col h-[114vh] pt-8 gap-y-[15vh] lg:pt-0  lg:flex-row mx-auto relative w-[90vw] lg:h-[75vh] flex lg:gap-[1vw] lg:justify-center">
           {CardData.map((item, index) => (
             <FeatureCard

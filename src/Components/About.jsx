@@ -13,7 +13,7 @@ function About() {
    ]
    console.log(hover)
   return (
-    <div className="py-[2vw] h-full min-h-screen bg-[#CDEA68] text-black rounded-t-2xl">
+    <div className="py-[2vw] z-40 h-full w-screen min-h-screen bg-[#CDEA68] text-black rounded-t-2xl">
         <div className="mt-[6vh] ml-[4vw] text-[8vw] lg:text-[3vw] font-normal ">
             <h1>Ochi is a strategic partner for fast-grow­ing tech</h1>
             <h1>businesses that need to <span className="underline">raise funds </span>, <span className="underline">sell prod­ucts,</span> </h1>

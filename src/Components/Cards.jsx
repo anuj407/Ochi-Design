@@ -16,13 +16,13 @@ function Cards() {
       prev.map((card,index)=>index===ind ? {...card,hover:false}:{...card}))
   }
   return (
-    <div className="h-full mt-[10vh] sticky -top-[35%] lg:top-0 card w-full lg:min-h-[90vh] lg:mt-[6vh] flex justify-center items-center ">
+    <div className="h-full mt-[10vh] sticky -top-[35%] lg:top-0 card w-screen lg:min-h-[90vh] lg:mt-[6vh] flex justify-center items-center ">
         <div className=" h-full flex-col gap-8 lg:flex-row w-[90vw] lg:h-[50vh]  flex lg:gap-4 ">
             <div className=" w-full h-[40vh] relative lg:w-1/2 lg:h-full flex justify-center items-center bg-[#004D43] rounded-xl overflow-hidden">
               <h1 className="text-[12vw] lg:text-[4.5vw] font-semibold text-[#CDEA68]">ochi</h1>
               <div className="absolute left-[8%] bottom-[8%] px-4 py-1 font-semibold border-[#CDEA68] text-[#CDEA68] text-sm border-[1.5px] rounded-full">@2019-2022</div>
             </div>
-            {cards.map((item,index)=><div key={index} className="w-full h-[40vh] lg:w-1/4 lg:h-full flex flex-col justify-center items-center bg-[#212121] rounded-xl overflow-hidden">
+            {cards.map((item,index)=><div key={index} className="w-screen h-[40vh] lg:w-1/4 lg:h-full flex flex-col justify-center items-center bg-[#212121] rounded-xl overflow-hidden">
              <div className="w-[100%] h-[70%] md:h-[80%] flex justify-center items-center">
               <img className={`${index===1 &&`h-full md:h-fit`} w-fit h-fit md:h-fit object-cover`} src={item.url} alt="" />
              </div>
