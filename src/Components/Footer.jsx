@@ -26,7 +26,7 @@ function Footer() {
     );
   };
   return (
-    <div className="flex-col min-h-[90vh] lg:flex-row text-[4.5vw] md:text-[4vw] lg:text-[1.2rem] relative  w-screen lg:min-h-screen flex bg-[#18181B] items-center justify-center">
+    <div className="flex-col min-h-[90vh] lg:flex-row text-[4.5vw] md:text-[4vw] lg:text-[1.2rem] relative  w-screen lg:min-h-screen flex bg-[#18181B] items-center justify-center overflow-hidden">
       <div className="left w-[90%] lg:w-[45%] lg:h-[88vh] pt-[10vh] flex flex-col justify-between">
         <div className="">
           {["eye", "Opening"].map((item, index) => (

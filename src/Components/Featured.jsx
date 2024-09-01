@@ -72,7 +72,7 @@ function Featured() {
     );
   };
   return (
-    <div className="w-screen pt-1 min-h-screen bg-zinc-950 ">
+    <div className="w-screen pt-1 min-h-screen bg-zinc-950 pb-4">
       <div className="mt-[7vh] border-b-[1px] border-gray-500 py-[4vh]">
         <h1 className="ml-[4vw] text-[3.5vw] font-normal tracking-tight">
           Featured Projects
