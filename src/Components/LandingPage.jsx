@@ -20,9 +20,9 @@ return (
      className="w-screen max-h-screen z-20 lg:h-screen text-white pt-1 flex flex-col">   
             <div className="h-[38vh] md:mt-[18vh] lg:h-[68%] mt-32 ml-8 lg:mt-44 lg:ml-20">
                {["We Create","eye-Openning","Presentation"].map((item,index)=>{
-                return <div key={index} className=" flex items-center">
+                return <div key={index} className=" flex ">
                           {index==1 && <motion.div initial={{width:"0vw"}} transition={{ease:[0.25, 1, 0.5, 1],duration:1.5,delay:5}} animate={window.innerWidth> 1024 ?{width:"8vw"}:{width:"17vw"}} className="w-[18vw] h-[12vw] lg:w-[8vw] lg:h-[5.5vw] relative -top-2 rounded-md overflow-hidden object-cover "><img className="w-full h-full object-cover" src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" /></motion.div>}
-                          <h1 className="uppercase font-medium font-['Founders_Grotesk_X_Condensed'] text-[9vw] leading-[10vw] md:text-[15vw] md:leading-[13vw] lg:text-[8.5vw] lg:leading-[7.5vw]">{item}</h1>
+                          <h1 className="uppercase font-medium font-['Founders_Grotesk_X_Condensed'] text-[9vw] leading-[11vw] md:text-[15vw] md:leading-[13vw] lg:text-[8.5vw] lg:leading-[7.5vw]">{item}</h1>
                        </div>
                })}
             </div> 
